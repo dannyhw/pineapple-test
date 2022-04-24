@@ -89,7 +89,18 @@ module.exports = async function (env, argv) {
     });
   }
 
-  const extensions = ['.ts', '.tsx', '.mjs', '.js', '.jsx'];
+  const extensions = [
+    '.web.ts',
+    '.web.tsx',
+    '.web.mjs',
+    '.web.js',
+    '.web.jsx',
+    '.web.ts',
+    '.tsx',
+    '.mjs',
+    '.js',
+    '.jsx',
+  ];
   let tsConfigPath = 'tsconfig.json';
 
   config.resolve.plugins.push(
