@@ -11,6 +11,8 @@ export const ToggleStorybook = (props: PropsWithChildren<unknown>) => {
   const [StorybookUIRoot, setStorybookUIRoot] = useState<any>(null);
   const [queryParams, setQueryParams] = useState<StorybookQueryParams>({});
 
+  console.log(process)
+
   useEffect(() => {
     if (__DEV__) {
       // Load the storybook UI once

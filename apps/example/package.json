@@ -42,7 +42,8 @@
     "react-native-web": "*",
     "@nrwl/expo": "*",
     "@expo/metro-config": "*",
-    "tsconfig-paths-webpack-plugin": "*"
+    "tsconfig-paths-webpack-plugin": "*",
+    "@storybook/react": "*"
   },
   "scripts": {
     "eas-build-pre-install": "cd ../../ && cp yarn.lock ./apps/example/ && mv ./apps/example/eas.js ./index.js",

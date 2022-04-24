@@ -1,0 +1,260 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:5:3-75
+11-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:5:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:3:3-64
+12-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:3:20-62
+13    <uses-permission android:name="android.permission.VIBRATE" /> <!-- These require runtime permissions on M -->
+13-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:6:3-63
+13-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:6:20-61
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:8:3-77
+14-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:8:20-75
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- END OPTIONAL PERMISSIONS -->
+15-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:9:3-78
+15-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:9:20-76
+16    <queries>
+16-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:12:3-19:13
+17
+18        <!-- Support checking for http(s) links via the Linking API -->
+19        <intent>
+19-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:14:5-18:14
+20            <action android:name="android.intent.action.VIEW" />
+20-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:15:7-59
+20-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:15:15-56
+21
+22            <category android:name="android.intent.category.BROWSABLE" />
+22-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:16:7-68
+22-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:16:17-65
+23
+24            <data android:scheme="https" />
+24-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:17:7-38
+24-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:17:13-35
+25        </intent>
+26
+27        <package android:name="host.exp.exponent" /> <!-- Query open documents -->
+27-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-53
+27-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-50
+28        <intent>
+28-->[:expo-file-system] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-21:18
+29            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+29-->[:expo-file-system] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-79
+29-->[:expo-file-system] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:21-76
+30        </intent>
+31    </queries>
+32
+33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+33-->[com.facebook.flipper:flipper:0.54.0] /Users/duro/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+33-->[com.facebook.flipper:flipper:0.54.0] /Users/duro/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+34    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+34-->[:react-native-keychain] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/react-native-keychain/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-72
+34-->[:react-native-keychain] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/react-native-keychain/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-69
+35    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+35-->[:react-native-keychain] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/react-native-keychain/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-74
+35-->[:react-native-keychain] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/react-native-keychain/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-71
+36    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[:expo-updates] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+37-->[:expo-updates] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[com.android.installreferrer:installreferrer:1.0] /Users/duro/.gradle/caches/transforms-3/9c2578d846e57c5938edd7b41654d4ac/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+38-->[com.android.installreferrer:installreferrer:1.0] /Users/duro/.gradle/caches/transforms-3/9c2578d846e57c5938edd7b41654d4ac/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+39
+40    <application
+40-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:21:3-31:17
+41        android:name="com.example.MainApplication"
+41-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:21:16-47
+42        android:allowBackup="false"
+42-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:21:162-189
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.6.0] /Users/duro/.gradle/caches/transforms-3/63630bff35c5941492530625c68eb7d4/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@mipmap/ic_launcher"
+45-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:21:81-115
+46        android:label="@string/app_name"
+46-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:21:48-80
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:21:116-161
+48        android:theme="@style/AppTheme"
+48-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:21:190-221
+49        android:usesCleartextTraffic="true" >
+49-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:21:222-257
+50        <meta-data
+50-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:22:5-103
+51            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+51-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:22:16-67
+52            android:value="YOUR-APP-URL-HERE" />
+52-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:22:68-101
+53        <meta-data
+53-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:23:5-112
+54            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+54-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:23:16-68
+55            android:value="YOUR-APP-SDK-VERSION-HERE" />
+55-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:23:69-110
+56
+57        <activity
+57-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:24:5-29:16
+58            android:name="com.example.MainActivity"
+58-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:24:15-43
+59            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+59-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:24:77-154
+60            android:label="@string/app_name"
+60-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:24:44-76
+61            android:launchMode="singleTask"
+61-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:24:155-186
+62            android:theme="@style/Theme.App.SplashScreen"
+62-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:24:230-275
+63            android:windowSoftInputMode="adjustResize" >
+63-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:24:187-229
+64            <intent-filter>
+64-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:25:7-28:23
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:26:9-60
+65-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:26:17-58
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:27:9-68
+67-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:27:19-66
+68            </intent-filter>
+69        </activity>
+70        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" /> <!-- suppress AndroidDomInspection -->
+70-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:30:5-81
+70-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:30:15-79
+71        <activity
+71-->[:react-native-keychain] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/react-native-keychain/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-20:67
+72            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+72-->[:react-native-keychain] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/react-native-keychain/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-78
+73            android:exported="true"
+73-->[:react-native-keychain] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/react-native-keychain/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-36
+74            android:theme="@style/DeviceCredentialHandlerTheme" />
+74-->[:react-native-keychain] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/react-native-keychain/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-64
+75
+76        <meta-data
+76-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:37
+77            android:name="expo.modules.updates.AUTO_SETUP"
+77-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-59
+78            android:value="false" />
+78-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-34
+79
+80        <activity
+80-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:9-33:20
+81            android:name="expo.modules.devlauncher.launcher.DevLauncherActivity"
+81-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-81
+82            android:launchMode="singleTask"
+82-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-44
+83            android:screenOrientation="portrait"
+83-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-49
+84            android:theme="@style/Theme.DevLauncher.LauncherActivity" >
+84-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-70
+85            <intent-filter>
+85-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-32:29
+86                <action android:name="android.intent.action.VIEW" />
+86-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:15:7-59
+86-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:15:15-56
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:17-76
+88-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:27-73
+89                <category android:name="android.intent.category.BROWSABLE" />
+89-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:16:7-68
+89-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:16:17-65
+90
+91                <data android:scheme="expo-dev-launcher" />
+91-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:17:7-38
+91-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:17:13-35
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-37:70
+95            android:name="expo.modules.devlauncher.launcher.errors.DevLauncherErrorActivity"
+95-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-93
+96            android:screenOrientation="portrait"
+96-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-49
+97            android:theme="@style/Theme.DevLauncher.ErrorActivity" />
+97-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-67
+98        <activity
+98-->[:expo-dev-menu] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-menu/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-25:20
+99            android:name="expo.modules.devmenu.DevMenuActivity"
+99-->[:expo-dev-menu] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-menu/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-64
+100            android:exported="true"
+100-->[:expo-dev-menu] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-menu/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-36
+101            android:launchMode="singleTask"
+101-->[:expo-dev-menu] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-menu/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-44
+102            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" >
+102-->[:expo-dev-menu] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-menu/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-75
+103            <intent-filter>
+103-->[:expo-dev-menu] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-menu/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-24:29
+104                <action android:name="android.intent.action.VIEW" />
+104-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:15:7-59
+104-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:15:15-56
+105
+106                <category android:name="android.intent.category.DEFAULT" />
+106-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:17-76
+106-->[:expo-dev-launcher] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-dev-launcher/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:27-73
+107                <category android:name="android.intent.category.BROWSABLE" />
+107-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:16:7-68
+107-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:16:17-65
+108
+109                <data android:scheme="expo-dev-menu" />
+109-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:17:7-38
+109-->/Users/duro/Workspace/projects/pineapple/expo-test-pass4/apps/example/android/app/src/main/AndroidManifest.xml:17:13-35
+110            </intent-filter>
+111        </activity>
+112
+113        <provider
+113-->[:expo-file-system] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-34:20
+114            android:name="expo.modules.filesystem.FileSystemFileProvider"
+114-->[:expo-file-system] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-74
+115            android:authorities="com.example.FileSystemFileProvider"
+115-->[:expo-file-system] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-74
+116            android:exported="false"
+116-->[:expo-file-system] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-37
+117            android:grantUriPermissions="true" >
+117-->[:expo-file-system] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-47
+118            <meta-data
+118-->[:expo-file-system] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-33:70
+119                android:name="android.support.FILE_PROVIDER_PATHS"
+119-->[:expo-file-system] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:17-67
+120                android:resource="@xml/file_system_provider_paths" />
+120-->[:expo-file-system] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:17-67
+121        </provider>
+122
+123        <meta-data
+123-->[:expo-modules-core] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:89
+124            android:name="org.unimodules.core.AppLoader#react-native-headless"
+124-->[:expo-modules-core] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+125            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+125-->[:expo-modules-core] /Users/duro/Workspace/projects/pineapple/expo-test-pass4/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-86
+126
+127        <provider
+127-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/duro/.gradle/caches/transforms-3/8b46158bd4206a233f95cbac4a59faac/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+128            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+128-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/duro/.gradle/caches/transforms-3/8b46158bd4206a233f95cbac4a59faac/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+129            android:authorities="com.example.lifecycle-process"
+129-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/duro/.gradle/caches/transforms-3/8b46158bd4206a233f95cbac4a59faac/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+130            android:exported="false"
+130-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/duro/.gradle/caches/transforms-3/8b46158bd4206a233f95cbac4a59faac/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+131            android:multiprocess="true" />
+131-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/duro/.gradle/caches/transforms-3/8b46158bd4206a233f95cbac4a59faac/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+132
+133        <service
+133-->[androidx.room:room-runtime:2.3.0] /Users/duro/.gradle/caches/transforms-3/d7daa8ea44108159e5b04ed2f01f0311/transformed/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+134            android:name="androidx.room.MultiInstanceInvalidationService"
+134-->[androidx.room:room-runtime:2.3.0] /Users/duro/.gradle/caches/transforms-3/d7daa8ea44108159e5b04ed2f01f0311/transformed/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+135            android:directBootAware="true"
+135-->[androidx.room:room-runtime:2.3.0] /Users/duro/.gradle/caches/transforms-3/d7daa8ea44108159e5b04ed2f01f0311/transformed/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+136            android:exported="false" />
+136-->[androidx.room:room-runtime:2.3.0] /Users/duro/.gradle/caches/transforms-3/d7daa8ea44108159e5b04ed2f01f0311/transformed/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+137    </application>
+138
+139</manifest>
