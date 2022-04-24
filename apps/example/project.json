@@ -1,0 +1,110 @@
+{
+  "root": "apps/example",
+  "sourceRoot": "apps/example/src",
+  "projectType": "application",
+  "targets": {
+    "start": {
+      "executor": "@nrwl/expo:start",
+      "options": {
+        "port": 8081
+      }
+    },
+    "web": {
+      "executor": "@nrwl/expo:start",
+      "options": {
+        "port": 8081,
+        "webpack": true
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "nx start example"
+      }
+    },
+    "run-ios": {
+      "executor": "@nrwl/expo:run",
+      "options": {
+        "platform": "ios"
+      }
+    },
+    "run-android": {
+      "executor": "@nrwl/expo:run",
+      "options": {
+        "platform": "android"
+      }
+    },
+    "build-ios": {
+      "executor": "@nrwl/expo:build-ios",
+      "options": {}
+    },
+    "build-android": {
+      "executor": "@nrwl/expo:build-android",
+      "options": {}
+    },
+    "build-web": {
+      "executor": "@nrwl/expo:build-web",
+      "options": {}
+    },
+    "build-status": {
+      "executor": "@nrwl/expo:build-web",
+      "options": {}
+    },
+    "sync-deps": {
+      "executor": "@nrwl/expo:sync-deps",
+      "options": {}
+    },
+    "ensure-symlink": {
+      "executor": "@nrwl/expo:ensure-symlink",
+      "options": {}
+    },
+    "publish": {
+      "executor": "@nrwl/expo:publish",
+      "options": {}
+    },
+    "publish-set": {
+      "executor": "@nrwl/expo:publish-set",
+      "options": {}
+    },
+    "rollback": {
+      "executor": "@nrwl/expo:rollback",
+      "options": {}
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "apps/example/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "clean": {
+      "executor": "@nrwl/workspace:run-script",
+      "options": {
+        "script": "clean"
+      }
+    },
+    "update-stories": {
+      "executor": "@nrwl/workspace:run-script",
+      "options": {
+        "script": "storybook:update"
+      }
+    },
+    "watch-stories": {
+      "executor": "@nrwl/workspace:run-script",
+      "options": {
+        "script": "storybook:watch"
+      }
+    },
+    "storybook-web": {
+      "executor": "@nrwl/workspace:run-script",
+      "options": {
+        "script": "storybook:start"
+      }
+    }
+  },
+  "tags": []
+}
