@@ -2820,8 +2820,10 @@
   dependencies:
     esquery "^1.0.1"
 
-"@pineappledev/express@file:../pineapple-express/dist/packages/express":
-  version "0.0.0"
+"@pineappledev/express@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@pineappledev/express/-/express-0.0.6.tgz#0beff85c2dee5299ff7c8d73a903d25ba19aa544"
+  integrity sha512-12nM41Hq7Dr9AcW/D2KWvG9gtzEhEGB4HEA5Lr+oUaQr5OBlMPLDWd48Qe+Vd2BeVZqhkN4ZgvGA6INJRVBM+w==
   dependencies:
     "@nrwl/expo" "~13.9"
 

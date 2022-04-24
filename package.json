@@ -31,7 +31,7 @@
     "@nrwl/cli": "13.10.3",
     "@nrwl/expo": "*",
     "@nrwl/workspace": "13.10.3",
-    "@pineappledev/express": "file:../pineapple-express/dist/packages/express",
+    "@pineappledev/express": "0.0.6",
     "@react-native-async-storage/async-storage": "1.16.3",
     "@react-native-community/datetimepicker": "4.0.0",
     "@react-native-community/slider": "4.1.12",
