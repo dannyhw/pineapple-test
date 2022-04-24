@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
-    "example": "apps/example"
+    "example": "apps/example",
+    "ui": "libs/ui"
   }
 }

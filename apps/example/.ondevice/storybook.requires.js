@@ -27,7 +27,7 @@ if (parameters) {
 argsEnhancers.forEach((enhancer) => addArgsEnhancer(enhancer));
 
 const getStories = () => {
-  return [];
+  return [require("../../../libs/ui/src/components/button/button.stories.tsx")];
 };
 
 configure(getStories, module, false);
